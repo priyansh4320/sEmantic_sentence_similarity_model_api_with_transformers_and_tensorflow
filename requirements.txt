@@ -1,0 +1,6 @@
+fastapi==0.100.0
+Flask==2.2.2
+numpy==1.23.5
+sentence_transformers==2.2.2
+tensorflow==2.12.0
+tensorflow_intel==2.12.0
