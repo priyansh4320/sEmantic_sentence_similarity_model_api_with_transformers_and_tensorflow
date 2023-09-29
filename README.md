@@ -67,12 +67,12 @@ Once you are satisfied with the model's performance, save it for future use.
 
 ## API Creation
 
--Ensure you have the necessary dependencies installed using `pip install tensorflow, fastapi, sentence-transformers, numpy`.
--The provided code loads a pre-trained TensorFlow model `(precily_sns_mod_complete_regression)` and a SentenceTransformer `(stsb-roberta-large)` using caching for efficient performance.
--Run the FastAPI application by executing uvicorn your_script_name:app --reload in the terminal, replacing your_script_name with the name of your Python script (e.g., app.py).
--Access the API by sending a POST request to `http://127.0.0.1:8000/compare` with the sentences to compare.
--Use `curl` or `Python` requests to interact with the API and obtain the similarity score for the given sentences.
--Feel free to tailor this information to better suit your README structure and style.
+- Ensure you have the necessary dependencies installed using `pip install tensorflow, fastapi, sentence-transformers, numpy`.
+- The provided code loads a pre-trained TensorFlow model `(precily_sns_mod_complete_regression)` and a SentenceTransformer `(stsb-roberta-large)` using caching for efficient performance.
+- Run the FastAPI application by executing uvicorn your_script_name:app --reload in the terminal, replacing your_script_name with the name of your Python script (e.g., app.py).
+- Access the API by sending a POST request to `http://127.0.0.1:8000/compare` with the sentences to compare.
+- Use `curl` or `Python` requests to interact with the API and obtain the similarity score for the given sentences.
+- Feel free to tailor this information to better suit your README structure and style.
 
 
 
