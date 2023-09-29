@@ -1,6 +1,6 @@
 
 # Semantic Sentence Similarity Model API with Transformers and TensorFlow
-This repository implements a semantic sentence similarity model API using Transformers and TensorFlow. The model measures the semantic similarity between two sentences and is based on the STSB-Roberta-Base pre-trained model.
+This repository implements a semantic sentence similarity model using Transformers and TensorFlow. The model measures the semantic similarity between two sentences and is based on the STSB-Roberta-Base pre-trained model.and generate an API for it.
 
 Installation
 To get started, you need to install the necessary libraries using pip:
